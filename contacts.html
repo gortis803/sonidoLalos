@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+Gerardo Ortiz
+WEB 150, ASN6
+July 21, 2024
+Business name:Sonido Lalos Robot Show
+-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Rent a Robot with Sonido Lalos Robot Show">
+    <title>"Contacts" </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <nav class="edge">
+        <a href="index.html" class="logo">SL</a>
+        <a href="index.html">Home</a>
+        <a href="services.html"> Services </a>
+        <a href="contacts.html">Contact</a>
+    </nav>
+
+    <header class="edge">
+        <div>
+            <h1>Contacts</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="edge">
+            <section>
+                <h2>Got questions, enter them below!<sub>(For your entertainment, enjoy this video!)</sub></h2>
+                <div>
+                    <video controls width="600" height="600" preload="auto">
+                        <source src="images/robotdance.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <form>
+                    <label for="customer_name">Name:
+                        <input type="text" name="customer_name" id="customer_name" required>
+                    </label>
+                    <label for="customer_email">Email:
+                        <input type="email" name="customer_email" id="customer_email" required>
+                    </label>
+                    <div>
+                        <p>Topic:</p>
+                        <label for="Robot">
+                            <input type="radio" id="Robot" name="Subjects">
+                            Robot
+                        </label>
+                        <label for="BigHeads">
+                            <input type="radio" id="BigHeads" name="Subjects">
+                            Big Heads
+                        </label>
+                        <label for="Other">
+                            <input type="radio" id="Other" name="Subjects">
+                            Other
+                        </label>
+                    </div>
+                    <textarea placeholder="Write your Question here" maxlength="200"></textarea>
+
+                    <label for="refer">How did you hear about us?</label>
+                    <select name="refer" id="refer">
+                        <option value="">-Select One-</option>
+                        <option value="1">From a party</option>
+                        <option value="2"> Social media</option>
+                        <option value="4">Just ended up here</option>
+                    </select>
+                    <input type="checkbox" name="newsletter" value="yes" id="newsletter" checked>
+                    <label for="newsletter">Newsletter?</label>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </div>
+
+    </main>
+
+    <footer class="edge">
+        <p>Sonido lalo Robot Show &copy;</p>
+
+        <div>
+            <a href="https://youtube.com" target=_blank> <i class="fa-brands fa-youtube"></i></a>
+            <a href="https://facebok.com" target=_blank><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com" target=_blank> <i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
+        integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
